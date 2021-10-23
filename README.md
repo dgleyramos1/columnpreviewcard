@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solução](https://www.frontendmentor.io/solutions/colunas-para-preview-com-cards-9kM74e-XC)
+- Live Site URL: [Página](https://dgleyramos1.github.io/columnpreviewcard/)
 
 ## My process
 
