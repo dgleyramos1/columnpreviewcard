@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+#cards a {
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 70px;
+}
+
+body {
+    font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+
+#container {
+    width: 95vw;
+    height: 95vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#cards {
+    width: auto;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.card h2 {
+    font-size: 2em;
+    font-family: 'Big Shoulders Display', "cursive";
+    font-weight: 700;
+    margin-top: 60px;
+    color: white;
+}
+
+.card p {
+    font-size: 0.9em;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+#cardOne {
+    background: url("./images/icon-sedans.svg") 15% 10% no-repeat;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#cardOne a {
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+}
+
+#cardTwo {
+    background: url("./images/icon-suvs.svg") 15% 10% no-repeat;
+    background-color: hsl(184, 100%, 22%);
+}
+#cardTwo a {
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+}
+#cardThree {
+    background: url("./images/icon-luxury.svg") 15% 10% no-repeat;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#cardThree a {
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+}
+
+#cardOne a:hover,
+#cardTwo a:hover,
+#cardThree a:hover {
+    border: 2px solid white;
+    background: none;
+    color: white;
+}
+
+
+@media (max-width: 575.98px) {
+    body {
+        width: 100vw;
+        height: auto;
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+    }
+    #container {
+        width: auto;
+        height: auto;
+    }
+    #cards {
+        width: 100%;
+        height: auto;
+    }
+    #cardOne {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    #cardThree {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
